@@ -1,0 +1,101 @@
+item,num_pallets,importance
+nylon,10,unimportant
+leather,4,unimportant
+wool,1,important
+leather,1,unimportant
+nylon,1,unimportant
+polyester,2,important
+silk,1,important
+cotton,5,important
+cotton,5,important
+leather,3,unimportant
+silk thread,5,important
+nylon,6,unimportant
+cotton,3,unimportant
+leather,8,unimportant
+polyester,2,unimportant
+cotton thread,5,important
+denim,8,important
+cotton thread,10,unimportant
+silk thread,9,important
+cotton,5,important
+elastic thread,7,unimportant
+polyester thread,7,important
+polyester,7,important
+polyester thread,9,important
+polyester,6,unimportant
+denim thread,8,unimportant
+silk,2,important
+nylon,6,unimportant
+elastic thread,1,unimportant
+elastic thread,9,important
+linen thread,7,unimportant
+cotton,4,unimportant
+elastic thread,6,important
+nylon,8,unimportant
+silk,5,unimportant
+polyester thread,6,unimportant
+denim thread,6,important
+denim,2,important
+polyester,10,important
+polyester,9,unimportant
+polyester thread,8,unimportant
+silk,5,unimportant
+wool,4,important
+linen thread,7,important
+linen thread,4,unimportant
+cotton thread,7,unimportant
+elastic thread,2,unimportant
+wool,3,important
+silk thread,4,unimportant
+silk,3,important
+nylon,10,important
+leather,7,important
+denim,9,important
+nylon,3,important
+denim,8,important
+linen thread,5,important
+polyester,4,important
+silk thread,9,unimportant
+elastic thread,3,unimportant
+leather,10,important
+elastic thread,6,unimportant
+silk,10,unimportant
+cotton,6,unimportant
+linen thread,4,important
+nylon,1,unimportant
+denim thread,4,important
+polyester thread,9,important
+leather,9,unimportant
+polyester thread,5,unimportant
+denim thread,5,important
+wool,7,important
+linen thread,3,important
+linen thread,10,important
+polyester,6,important
+silk thread,2,unimportant
+leather,3,important
+cotton,9,unimportant
+wool,6,important
+denim,2,important
+elastic thread,2,unimportant
+nylon,5,important
+polyester,8,unimportant
+polyester,5,unimportant
+polyester,10,important
+leather,4,unimportant
+elastic thread,7,unimportant
+wool,4,unimportant
+cotton,5,unimportant
+leather,7,unimportant
+leather,4,unimportant
+linen thread,4,important
+polyester,2,important
+wool,6,important
+polyester,8,unimportant
+linen thread,9,unimportant
+elastic thread,8,unimportant
+denim,9,important
+silk thread,5,important
+silk,1,unimportant
+silk,6,unimportant
