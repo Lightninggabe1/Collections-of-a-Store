@@ -48,3 +48,22 @@ coat_cost = new_coat.price
 updated_clothes_data = []
 for cloth in clothes:
   updated_clothes_data.append(ClothingItem(cloth[0],cloth[1],cloth[2],cloth[3]))
+
+#new_module: 'DefaultDict'
+from collections import defaultdict
+site_locations = {'t-shirt': 'Shirts',
+                  'dress shirt': 'Shirts',
+                  'flannel shirt': 'Shirts',
+                  'sweatshirt': 'Shirts',
+                  'jeans': 'Pants',
+                  'dress pants': 'Pants',
+                  'cropped pants': 'Pants',
+                  'leggings': 'Pants'
+                  }
+updated_products = ['draped blouse', 'leggings', 'undershirt', 'dress shirt', 'jeans', 'sun dress', 'flannel shirt', 'cropped pants', 'dress pants', 't-shirt', 'camisole top', 'sweatshirt']
+
+# Write your code below!
+validated_locations = defaultdict(lambda: 'TODO: Add to website')
+validated_locations.update(site_locations)
+for product in updated_products:
+  site_locations[product] = validated_locations[product]
