@@ -152,3 +152,19 @@ for item in new_months_data:
 current_year_standard_profit, current_year_holiday_profit = get_profits(profit_map)
 year_diff_standard_profit = current_year_standard_profit - last_year_standard_profit
 year_diff_holiday_profit = current_year_holiday_profit - last_year_holiday_profit
+
+#new_module:8/13
+from collections import Counter
+opening_inventory = ['shoes', 'shoes', 'skirt', 'jeans', 'blouse', 'shoes', 't-shirt', 'dress', 'jeans', 'blouse', 'skirt', 'skirt', 'shorts', 'jeans', 'dress', 't-shirt', 'dress', 'blouse', 't-shirt', 'dress', 'dress', 'dress', 'jeans', 'dress', 'blouse']
+
+closing_inventory = ['shoes', 'skirt', 'jeans', 'blouse', 'dress', 'skirt', 'shorts', 'jeans', 'dress', 'dress', 'jeans', 'dress', 'blouse']
+
+# Write your code ben
+def find_amount_sold(opening,closing,item):
+  opening_count = Counter(opening)
+  closing_count = Counter(closing)
+  opening_count.subtract(closing_count)
+  return opening_count[item]
+
+tshirts_sold = find_amount_sold(opening_inventory,closing_inventory, 't-shirt')
+print(tshirts_sold)
