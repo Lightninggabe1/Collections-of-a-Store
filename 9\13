@@ -1,3 +1,7 @@
+specialized_collections :   No. 9 
+                          ---------
+                          out of 13
+
 class Customer:
  
   def __init__(self, name, age, address, phone_number):
