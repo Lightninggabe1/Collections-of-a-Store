@@ -190,7 +190,7 @@ class OrderProcessingDict(UserDict):
 process_dict = OrderProcessingDict(data)
 process_dict.clean_orders()
 
-#new module userlist
+#new module userlist 11/13
 from collections import UserList
 data = [4, 6, 8, 9, 5, 7, 3, 1, 0]
 
@@ -202,3 +202,16 @@ class ListSorter(UserList):
 sorted_list = ListSorter(data)
 sorted_list.append(2)
 print(sorted_list)
+
+#new_module: UserString
+from collections import UserString
+str_name = 'python powered patterned products'
+str_word = 'patterned '
+
+# Write your code below!
+class SubtractString(UserString):
+  def __sub__(self,other):
+    if other in self.data:
+      self.data = self.data.replace(other,'')
+subtract_string = SubtractString(str_name)
+subtract_string = subtract_string - str_word
